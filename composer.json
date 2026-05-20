@@ -1,0 +1,16 @@
+{
+    "name": "selahbunag18-glitch/WS03-php",
+    "description": "Job seeking website",
+    "authors": [
+        {
+            "name": "Nethuselah Bunag",
+            "email": "selahbunag18@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Framework\\": "Framework/",
+            "App\\": "App/"
+        }
+    }
+}

@@ -1,0 +1,131 @@
+{
+  "siteMetadata": {
+    "title": "GOT",
+    "logoText1": "LIEU",
+    "logoText2": "blog",
+    "navLinks": [
+      "Home",
+      "Books",
+      "About"
+    ]
+  },
+  "heroSection": {
+    "rating": "9.2",
+    "ratingMax": "10",
+    "description": "Game of Thrones is a fantasy TV series where noble families fight for control of Westeros. It features political intrigue, dragons, magic, and epic battles, and is known for its shocking twists."
+  },
+  "comments": [
+    {
+      "name": "Ellon Mah",
+      "comment": "朋友，《权力的游戏》真的很好看。这是中国超级亿万富翁艾隆·马赫的评论。",
+      "img": "./img/ellon.jpeg"
+    },
+    {
+      "name": "Du30",
+      "comment": "Free me. pag patayin ko yang mga adik na yan. Bato, ilabas mo ako rito",
+      "img": "./img/baklang-duterte-v0-aix96y023ojf1.webp"
+    },
+    {
+      "name": "NightFam",
+      "comment": "Nightfam! Solid tong Game of thrones!",
+      "img": "./img/nightfam.jpg"
+    },
+    {
+      "name": "NightFam",
+      "comment": "Nightfam! Solid tong Game of thrones!",
+      "img": "./img/nightfam.jpg"
+    },
+    {
+      "name": "NightFam",
+      "comment": "Nightfam! Solid tong Game of thrones!",
+      "img": "./img/nightfam.jpg"
+    }
+  ],
+  "contentSection": {
+    "title": "A Story That Redefined Power, Loyalty, and Tragedy",
+    "paragraphs": [
+      "Game of Thrones is more than just a fantasy series filled with dragons and battles—it is a mirror of human ambition, loyalty, and the brutal cost of power. Set in the richly detailed world of Westeros, the story explores how far people are willing to go to claim the Iron Throne, and what they lose along the way.",
+      "One of the strongest elements of Game of Thrones is its refusal to follow traditional storytelling rules. Heroes die. Villains win. Honor is often punished, while deception thrives. Characters like <b>Ned Stark</b> teach us that integrity does not guarantee survival, while <b>Tyrion Lannister</b> proves that intelligence can be a sharper weapon than any sword.",
+      "The series also excels in character development. <b>Daenerys Targaryen’s</b> transformation from a powerless exile to a feared ruler shows how good intentions can slowly turn into obsession. Meanwhile, <b>Jon Snow’s</b> journey highlights the weight of duty and sacrifice, forcing him to choose between love, loyalty, and the greater good.",
+      "Beyond individual characters, Game of Thrones presents a harsh political reality: power is never simple, and leadership always comes at a cost. Wars are not glorious, alliances are fragile, and every decision creates consequences that echo across kingdoms.",
+      "In the end, Game of Thrones leaves us with a powerful message— <span class=\"text-[red] font-bold\">the fight for power often destroys the very people who seek it.</span> It is a story that stays with its audience not because of its dragons or battles, but because of how deeply human its conflicts are."
+    ]
+  },
+  "blogPosts": [
+    {
+      "title": "The Fall of House Targaryen: A Historical Analysis",
+      "author": "Maester Aemon",
+      "date": "May 19, 2026",
+      "content": "Before the events of the series, House Targaryen ruled Westeros for nearly 300 years. Their decline was not just due to the madness of King Aerys II, but a long history of infighting, the loss of their dragons, and political missteps that fractured the realm."
+    },
+    {
+      "title": "Why The North Remembers: Stark Loyalty Explained",
+      "author": "Jon Snow",
+      "date": "May 18, 2026",
+      "content": "The phrase 'The North Remembers' is a promise of revenge, but also a testament to the deep-seated loyalty the Northern houses hold for the Starks. Unlike southern politics which relies on wealth and deceit, the North is fundamentally built on honor and blood."
+    },
+    {
+      "title": "Dragons vs Politics: Which is True Power?",
+      "author": "Tyrion Lannister",
+      "date": "May 15, 2026",
+      "content": "Daenerys brought fire and blood, but Cersei wielded secrets and gold. A fascinating breakdown of how raw magical power compares to the insidious nature of Westerosi politics in the brutal war for the Iron Throne."
+    },
+    {
+      "title": "The White Walkers: A Threat From the True North",
+      "author": "Samwell Tarly",
+      "date": "May 12, 2026",
+      "content": "While the lords of Westeros play their game of thrones, a much darker, ancient enemy marches south. The White Walkers represent an existential threat that forces humanity to either unite or be entirely consumed by winter."
+    },
+    {
+      "title": "The Red Wedding: The Scene That Broke the Internet",
+      "author": "The Bard of Westeros",
+      "date": "May 10, 2026",
+      "content": "Robb Stark’s final moments remain one of the most shocking events in television history. We take a look back at how the Red Wedding forever changed the landscape of modern storytelling, signaling that no character is truly safe."
+    },
+    {
+      "title": "Arya Stark's List: A Journey of Vengeance",
+      "author": "Jaqen H'ghar",
+      "date": "May 05, 2026",
+      "content": "A girl has no name, but she does have a list. We explore Arya Stark's transformation from a spirited noble daughter to a faceless assassin, and evaluate the moral cost of dedicating one's life purely to revenge."
+    },
+    {
+      "title": "The True Cost of the Iron Bank",
+      "author": "Tywin Lannister",
+      "date": "May 01, 2026",
+      "content": "Armies win battles, but gold wins wars. The Iron Bank of Braavos silently dictates the fate of kings and queens across the Narrow Sea. A deep dive into the financial maneuvers that shape the wars of Westeros."
+    }
+  ],
+  "episodes": [
+    {
+      "title": "Battle of the Bastards",
+      "season": "Season 6, Episode 9",
+      "rating": "9.9",
+      "img": "./img/botb.png",
+      "preview": "Terms of surrender are rejected and a massive battle ensues. Jon Snow faces off against Ramsay Bolton in one of the most intense and visually stunning battles in television history."
+    },
+    {
+      "title": "The Rains of Castamere",
+      "season": "Season 3, Episode 9",
+      "rating": "9.9",
+      "img": "./img/rains.png",
+      "preview": "Robb Stark and his northern army arrive at the Twins for the wedding of Edmure Tully and Roslin Frey, unaware of the devastating trap set by Tywin Lannister and Walder Frey."
+    },
+    {
+      "title": "The Winds of Winter",
+      "season": "Season 6, Episode 10",
+      "rating": "9.9",
+      "img": "./img/winds.png",
+      "preview": "Cersei Lannister stands trial for her crimes, but she has a fiery surprise planned. Meanwhile, Jon Snow is declared King in the North and Daenerys finally sets sail for Westeros."
+    },
+    {
+      "title": "Hardhome",
+      "season": "Season 5, Episode 8",
+      "rating": "9.8",
+      "img": "./img/hardhome.png",
+      "preview": "Jon Snow and Tormund Giantsbane meet with the Free Folk elders at Hardhome. But their alliance is suddenly interrupted by the terrifying arrival of the Night King and his undead army."
+    }
+  ],
+  "footer": {
+    "text": "© 2026 LIEUblog. All rights reserved for Westeros and beyond."
+  }
+}

@@ -1,0 +1,149 @@
+/* ============================================================
+   JOBLY — CUSTOM STYLESHEET
+   Project: Jobly Job Board
+   ============================================================ */
+
+/* --- Google Fonts Import --- */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;500;600;700;800&display=swap');
+
+/* ----------------------------------------------------------------
+   SECTION 1: MGA KULAY (Colors)
+   ---------------------------------------------------------------- */
+
+:root {
+  --color-brand: #6366f1; /* Indigo 500 */
+  --color-brand-dark: #4f46e5; /* Indigo 600 */
+  --color-header: #ffffff;
+  --color-accent: #f59e0b; /* Amber 500 */
+  --color-page-bg: #f8fafc; /* Slate 50 */
+  --color-card-bg: #ffffff;
+  --color-heading: #0f172a; /* Slate 900 */
+  --color-body-text: #334155; /* Slate 700 */
+  --color-tag-bg: #e0e7ff; /* Indigo 100 */
+  --color-tag-text: #4338ca; /* Indigo 700 */
+  --color-footer: #0f172a;
+  --showcase-overlay: rgba(15, 23, 42, 0.6);
+}
+
+/* ----------------------------------------------------------------
+   SECTION 2: MGA FONT (Typography)
+   ---------------------------------------------------------------- */
+
+:root {
+  --font-heading: 'Outfit', sans-serif;
+  --font-body: 'Inter', sans-serif;
+}
+
+/* ----------------------------------------------------------------
+   SECTION 3: HUGIS AT ESTILO (Shape & Style)
+   ---------------------------------------------------------------- */
+
+:root {
+  --border-radius: 16px;
+  --card-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+}
+
+
+/* ================================================================
+   THEMED OVERRIDES — Scoped to avoid breaking the Tailwind layout
+   ================================================================ */
+
+/* --- Body --- */
+body {
+  font-family: var(--font-body) !important;
+  background-color: var(--color-page-bg) !important;
+  color: var(--color-body-text) !important;
+}
+
+/* --- Heading fonts --- */
+h1, h2, h3, h4, h5, h6,
+.font-display {
+  font-family: var(--font-heading) !important;
+}
+
+/* --- Colors --- */
+.text-brand-600 {
+  color: var(--color-brand-dark) !important;
+}
+
+.text-brand-500 {
+  color: var(--color-brand) !important;
+}
+
+.bg-brand-600 {
+  background-color: var(--color-brand-dark) !important;
+}
+
+.bg-brand-500 {
+  background-color: var(--color-brand) !important;
+}
+
+/* --- Header / Navbar --- */
+header.glass-nav {
+  background-color: rgba(255, 255, 255, 0.8) !important;
+  backdrop-filter: blur(12px) !important;
+  border-bottom: 1px solid rgba(226, 232, 240, 0.8) !important;
+}
+
+/* --- Showcase overlay --- */
+.overlay {
+  background: linear-gradient(to bottom right, rgba(79, 70, 229, 0.8), rgba(15, 23, 42, 0.8)) !important;
+}
+
+/* --- Job cards --- */
+.premium-card {
+  background-color: var(--color-card-bg) !important;
+  border-radius: var(--border-radius) !important;
+  box-shadow: var(--card-shadow) !important;
+  border: 1px solid #f1f5f9 !important;
+  transition: all 0.3s ease !important;
+}
+
+.premium-card:hover {
+  transform: translateY(-4px) !important;
+  box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1) !important;
+  border-color: var(--color-brand-dark) !important;
+}
+
+/* --- Tags inside cards --- */
+.premium-card .bg-brand-100 {
+  background-color: var(--color-tag-bg) !important;
+  color: var(--color-tag-text) !important;
+}
+
+/* --- Buttons --- */
+.btn-primary {
+  background-color: var(--color-brand) !important;
+  color: #ffffff !important;
+  border-radius: 12px !important;
+  font-weight: 600 !important;
+  transition: all 0.2s ease !important;
+}
+
+.btn-primary:hover {
+  background-color: var(--color-brand-dark) !important;
+  transform: scale(1.02) !important;
+}
+
+.btn-accent {
+  background-color: var(--color-accent) !important;
+  color: #ffffff !important;
+  border-radius: 12px !important;
+  font-weight: 600 !important;
+}
+
+/* --- Details page content cards --- */
+main .bg-white.rounded-3xl {
+  background-color: var(--color-card-bg) !important;
+  border-radius: var(--border-radius) !important;
+  box-shadow: var(--card-shadow) !important;
+  border: 1px solid #f1f5f9 !important;
+}
+
+/* --- Form cards --- */
+.bg-white.rounded-3xl.shadow-xl {
+  background-color: var(--color-card-bg) !important;
+  border-radius: var(--border-radius) !important;
+  box-shadow: var(--card-shadow) !important;
+  border: 1px solid #f1f5f9 !important;
+}
