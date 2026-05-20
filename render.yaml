@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: ws03-apps
+    env: docker
+    repo: https://github.com/cerastvs/wst03
+    plan: free
+    dockerfilePath: ./Dockerfile
+    envVars:
+      - key: APP_ENV
+        value: production
