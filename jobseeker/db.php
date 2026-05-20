@@ -160,11 +160,11 @@ class PDOStatementMock {
 
     public function fetch() {
         $res = array_shift($this->results);
-        return $res ? (object)$res : false;
+        return $res ? $res : false;
     }
 
     public function fetchAll() {
-        return array_map(function($item) { return (object)$item; }, $this->results);
+        return $this->results;
     }
 
     public function rowCount() {
